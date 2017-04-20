@@ -17,6 +17,10 @@ dependencies {
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.7'
 }
 
+task integrationTest(type:Test) {
+    useTestNG() {
+    }
+}
 //runTest(type:Test){
 //    useTestNG(
 //            includeGroups()
