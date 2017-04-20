@@ -10,7 +10,7 @@ class FilmTest {
     void verifyYearOfFilm() {
         FilmBo filmBo = new FilmBo()
         String actualYear = filmBo.getFilmByTitle(property.getFilmTitle1()).getYear()
-        Assert.assertEquals(actualYear, "1991", "wrong year")
+        Assert.assertEquals(actualYear, "1992", "wrong year")
     }
 
     @Test
